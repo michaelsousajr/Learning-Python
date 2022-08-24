@@ -20,4 +20,7 @@ def strings():
     print(cat[0]) #prints first index
     print(cat.index("a")) #letter a is at index 2
     print(cat.replace("lie","les")) #replaces specified letters
-        
+
+def numbers():
+    a = 1
+    print(a)
