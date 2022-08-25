@@ -1,4 +1,6 @@
 #Learning Python!
+from math import*
+
 
 def smileyFace():
     print("[]   []")
@@ -22,5 +24,12 @@ def strings():
     print(cat.replace("lie","les")) #replaces specified letters
 
 def numbers():
-    a = 1
-    print(a)
+    print(str(0) + " is my favorite number") #converts 5 to str
+    n = -1
+    print(abs(n)) #absolute value of n  
+    print(pow(3,2)) #3^2
+    print(max(1,5)) ,  print(min(1,5)) #finds max and min
+    print(round(3.6)) #round num up or down
+    print(floor(3.5)) , print(ceil(3.5)) #takes away decimal, and always rounds up    
+    print(sqrt(36)) #square root
+
