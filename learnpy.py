@@ -33,3 +33,6 @@ def numbers():
     print(floor(3.5)) , print(ceil(3.5)) #takes away decimal, and always rounds up    
     print(sqrt(36)) #square root
 
+def myInput():
+    name = input("Enter name: ")
+    print("Length of your name is: " + len(name))
