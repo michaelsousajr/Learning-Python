@@ -64,3 +64,15 @@ def listfnx():
 def tuples():
     coordinates = (3, 5)
     print(coordinates[0])
+    
+def myReturn(num):
+    result =  num * num * num
+    print(result)
+    return result
+
+def myIf():
+    isMale = True
+    if isMale:
+        print("you are male")
+    else: 
+        print("You are not a male")
