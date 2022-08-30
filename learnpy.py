@@ -76,3 +76,30 @@ def myIf():
         print("you are male")
     else: 
         print("You are not a male")
+        
+def maxNum(num1,num2,num3):
+    if num1 > num2 and num1 > num3:
+        print(str(num1)+" is the biggest num")
+    elif num2 > num1 and num2 > num3:
+        print(str(num2)+" is the biggest num")
+    elif num1 == num2 and num2 == num3:
+        print("all numbers are the same")
+    else:
+        print(str(num3)+" is the biggest num")
+
+def calculatorPlus():
+    userNum1 = float(input("Enter first num: "))
+    userOp = input("Enter operator: ")
+    userNum2 = float(input("Enter second num: "))
+    
+    
+    if userOp == "+":
+        print(userNum1+userNum2)
+    elif userOp == "-":
+        print(userNum1-userNum2)
+    elif userOp == "/":
+        print(userNum1/userNum2)
+    elif userOp == "*":
+        print(userNum1*userNum2)
+    else:
+        print("Invalid input")
