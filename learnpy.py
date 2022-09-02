@@ -103,3 +103,17 @@ def calculatorPlus():
         print(userNum1*userNum2)
     else:
         print("Invalid input")
+
+def converter():
+    monthCon = {
+        "Jan" : "January",
+        "Feb" : "Febuary",
+        "Mar" : "March",
+    }
+    numCon = {
+        1 : "One",
+        2 : "Two",
+        3 : "Three"
+    }
+    print(monthCon["Mar"])
+    print(numCon[1])
