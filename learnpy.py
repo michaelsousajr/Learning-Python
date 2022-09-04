@@ -123,3 +123,23 @@ def whileLoop():
     while a < 10:
         print(a)
         a += 1
+        
+def guessingGame():
+    secretWord = "secret"
+    guess = ""
+    guessCount = 0
+    guessLimit = 3
+    guessBool = False
+
+    while guess != secretWord and not(guessBool):
+        if guessCount < guessLimit:
+            guess = input("Enter guess: ")
+            guessCount += 1
+        else:
+            guessBool = True
+
+    if guessBool:
+        print("You Lose")
+    else:
+        print("You Win")
+        
