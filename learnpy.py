@@ -143,3 +143,39 @@ def guessingGame():
     else:
         print("You Win")
         
+def forLoops():
+    for letter in "Michael Sousa":
+        print(letter, end = "")
+    
+    friends = ["mike", "jim", "bob"]
+    for friend in friends:
+        print (friend)
+        
+    for index in range(10):
+        print(index)    
+
+    for index in range(1,3):
+        print(index)
+    
+    for index in range(5):
+        if index == 0:
+            print("first interation")
+        else:
+            print("not first")
+
+def exponents(baseNum,pow):
+        print(baseNum**pow)
+        
+def grid():
+    myGrid = [
+        [1,2,3],
+        [4,5,6],
+        [7,8,9],
+        [0]
+    ]
+    
+    print(myGrid[0][0])
+    
+    for row in myGrid:
+        for col in row:
+            print(col)
