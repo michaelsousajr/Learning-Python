@@ -179,3 +179,34 @@ def grid():
     for row in myGrid:
         for col in row:
             print(col)
+
+
+def translate():
+    phrase = input("Enter Phrase: ")
+    translation = ""
+    for letter in phrase:
+        if letter.lower() in "aeiou":
+
+            if letter.isupper():
+                translation = translation + "G"
+
+            else:
+                translation = translation + "g"
+
+        else:
+            translation = translation + letter       
+
+    print(translation)
+
+def comment():
+    '''
+    this is
+    my comment
+    '''
+    
+    #this is my other comment
+    
+    print("this line works")
+    
+    
+    
