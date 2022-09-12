@@ -217,3 +217,10 @@ def tryExcept():
         print(err)
     except ValueError:
         print("invalid input")
+
+def files():
+    #r = read, w = write, a = append, r+ = read + write
+    myFile = open("txt/emp.txt", "r+") 
+    myFile.write("\npam\n")
+    print(myFile.read())
+    myFile.close()
