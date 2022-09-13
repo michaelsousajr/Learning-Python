@@ -1,4 +1,6 @@
 #Learning Python!
+
+import myFile
 from math import*
 
 
@@ -224,3 +226,7 @@ def files():
     myFile.write("\npam\n")
     print(myFile.read())
     myFile.close()
+
+def modules_pip():
+    print(myFile.rollDice(4)) #imports function from another file
+    
