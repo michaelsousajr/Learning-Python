@@ -1,5 +1,6 @@
 #Learning Python!
 
+from student import Student 
 import myFile
 from math import*
 
@@ -229,4 +230,11 @@ def files():
 
 def modules_pip():
     print(myFile.rollDice(4)) #imports function from another file
+    
+    
+def myClassObject():  
+    student1 = Student("Jim","buisness",3.1,False)
+    student2 = Student("Pam", "Nursing", 4.0, False)
+    print(student1.gpa)
+    print(student2.name)
     
