@@ -233,11 +233,37 @@ def modules_pip():
     print(myFile.rollDice(4)) #imports function from another file
     
     
-def myClassObject():  
+def studentClassObject():  
     student1 = Student("Jim","buisness",3.1,False)
     student2 = Student("Pam", "Nursing", 4.0, False)
     print(student1.gpa)
     print(student2.name)
+    
+    def isHonorRoll():
+        print(student1.honorRoll())
+    isHonorRoll()
  
 def multipleChoice():
-    #code
+    questionPrompts = [
+        "What color are apples?\n(a) red/green\n(b) purple\n(c)"
+        "What color are bananas?\n(a) teal\n(b) magenta\n(c) yellow"
+        "What color are strawberries?\n(a) yellow\n(b) red\n(c) blue"
+    ]
+    
+    questions = [
+        Question(questionPrompts[0], "a"),
+        Question(questionPrompts[0], "b"),
+        Question(questionPrompts[0], "c"),
+    ]
+    
+    def runTest(questions):
+        score = 0
+        for question in questions:
+            answer = input(question.prompt)
+            if answer == question.answer:
+                score += 1
+        print("You got "+str(score))
+        
+        
+def myInherit():
+    #code here
