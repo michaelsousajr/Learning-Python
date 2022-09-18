@@ -1,5 +1,6 @@
 #Learning Python!
 
+from question import Question
 from student import Student 
 import myFile
 from math import*
@@ -237,4 +238,6 @@ def myClassObject():
     student2 = Student("Pam", "Nursing", 4.0, False)
     print(student1.gpa)
     print(student2.name)
-    
+ 
+def multipleChoice():
+    #code
