@@ -1,6 +1,7 @@
 #Learning Python!
 
 from question import Question
+from chef import Chef
 from student import Student 
 import myFile
 from math import*
@@ -39,7 +40,7 @@ def numbers():
 
 def myInput():
     name = input("Enter name: ")
-    print("Length of your name is: " + len(name))
+    print("your name is: " + name)              
 
 def calculate():
     num1 = input("Enter number: ") #input is always read as str 
@@ -266,4 +267,36 @@ def multipleChoice():
         
         
 def myInherit():
-    #code here
+    chefRamsey = Chef()
+    chefRamsey.makeChicken()
+    myJChef = JapaneseChef(chef)
+    myJChef.makeRamen()
+
+##################################################
+
+smileyFace()
+datatypevar()
+strings()
+numbers()
+myInput()
+calculate()
+myList()
+listfnx()
+tuples()
+myReturn(3)
+myIf()
+maxNum(1,2,3)
+calculatorPlus()
+converter()
+whileLoop()
+guessingGame()
+forLoops()
+exponents(2,4)
+grid()
+translate()
+comment()
+tryExcept()
+files()
+modules_pip()
+studentClassObject()
+multipleChoice()
